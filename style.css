@@ -1,0 +1,573 @@
+/* header part start */
+#header{
+    background-color: var(--brand1);
+}
+#header .left-p {
+    color: var(--white);
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    /* border: 1px solid red; */
+}
+#header .right-links {
+    display: inline-flex;
+    align-self: flex-end;
+    padding: 9px 0px;
+   
+    /* border: 1px solid red; */
+}
+#header .right-links li a {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 24px;
+    padding: 9px;
+}
+#header .right-links li a:hover {
+    color: var(--black);
+    transition: all linear .3s;
+}
+/* header part end */
+
+/* nav part start */
+#nav{
+    padding: 10px 0px;
+}
+#nav .logo{
+    height: 40px;
+    padding: 12px 0px;
+    margin-top: 2px;
+}
+#nav .nav-link{
+    display: inline-flex;
+    align-self: flex-end;
+    padding: 22px 0px;
+}
+#nav .nav-link a{
+    color: var(--black);
+    font-size: 14px;
+    line-height: 24px;
+    padding: 28px 8px;
+}
+#nav .nav-link a:hover{
+    color: var(--brand1);
+    transition: all linear .3s;
+}
+/* nav part end */
+/* banner section strat */
+#banner{
+    background-image: url('../image/thumb_606_reference@1X.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#banner .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0px;
+}
+
+#banner .banner-contant{
+    text-align: right;
+    
+}
+#banner .banner-contant h2{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 30px;
+    font-family: "Oswald-regular";
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+#banner .banner-contant h1{
+    color: var(--white);
+    font-size: 40px;
+    font-family: "Oswald-Bold";
+    text-align: right;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    
+}
+#banner .banner-contant p{
+    color: var(--white);
+    font-size: 13px;
+    margin-bottom: 22px;
+    /* line-height: 24px;
+    font-weight: 400; */
+    /* font-family: "OpenSans-Regular"; */
+}
+#banner .banner-contant .bnts{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+#banner .banner-contant .bnts a{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Oswald-regular";
+    padding: 10px 20px;
+    border: 1px solid var(--white);
+    margin-left: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#banner .banner-contant .bnts a:hover{
+    background-color: var(--brand1);
+    border: 1px solid var(--brand1);
+    transition: all linear .3s;
+}
+/* banner section end */
+/* about us part start */
+#about-us {
+    text-align:left;
+    padding-bottom: 30px;
+    /* padding: 124px; */
+}
+#about-us .col-12 h2{
+    font-size: 24px;
+    line-height: 24px;
+}
+#about-us .col-12{
+    /* font-weight: 500; */
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+#about-us .col-12::before{
+    position: absolute;
+    content: '';
+    background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+    height: 4px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:4px 0px ;
+    /* display: inline-block; */
+    margin-top: 24px;
+    width: 12%;
+}
+#about-us .col-5 img{
+    margin-top: 20px
+}
+
+#about-us .col-7{
+    padding: 19px 40px;
+}
+#about-us .col-7 h3{
+    font-size: 24px;
+    line-height: 24px;
+    /* font-weight: 500; */
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 50px;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+#about-us .col-7 p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--black);
+    font-family: "OpenSans-Regular";
+    margin-right: 30px;
+    padding-top: 25px;
+    text-align: justify;
+
+}
+/* about us part end */
+
+/* Our Services Start */
+#Our_Services{
+    padding-bottom: 30px;
+}
+/* #Our_Services .common_heading{ 
+    position: absolute;
+    content: '';
+    background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+    height: 4px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:4px 0px ;
+    /* display: inline-block; */
+    /* margin-top: 29px; */
+    /* width: 18%; */ 
+ 
+#Our_Services .col-12 h2{
+    font-size: 24px;
+        line-height: 24px;
+    }
+    #Our_Services .col-12{
+        /* font-weight: 500; */
+        font-family: "Oswald-Bold";
+        text-transform: uppercase;
+        color: var(--black);
+        margin-bottom: 50px;
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: -6px;
+        margin-bottom: 22px;
+    }
+    #Our_Services .col-12::before{
+        position: absolute;
+        content: '';
+        background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+        height: 4px;
+        width: 100%;
+        background-repeat: no-repeat;
+        padding:4px 0px ;
+        /* display: inline-block; */
+        margin-top: 24px;
+        width: 17%;
+     }
+/* #Our_Services .service_body{ */
+    /* border: 1px solid red; */
+
+#Our_Services .service_body .top{
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    height: 44px;
+    /* display: flex; */
+    
+}
+#Our_Services .row{
+    margin-bottom: 100px;
+    margin-bottom: 2px;
+    margin-top: 11px;
+}
+#Our_Services .service_body:hover{
+    cursor: pointer;   
+}
+#Our_Services .service_body:hover .top .icon .borders .line_border{
+    background-color: var(--brand2);
+    transition: all linear .3s;
+}
+#Our_Services .service_body:hover .top .icon .borders .innar_border{
+    background-color: var(--brand2);
+    transition: all linear .3s;
+}
+#Our_Services .service_body .top .icon{
+    border: 4px var(--white);
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#Our_Services .service_body .top .icon .borders{
+    border: 3px solid var(--white);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    justify-content:center;
+    align-items:center;
+}
+#Our_Services .service_body .top .icon .borders .line_border{
+    border: 1px solid #f1f1f1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+#Our_Services .service_body .top .icon .borders .innar_border{
+    border: 2px solid var(--white);
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+#Our_Services .service_body .top .icon img{
+    height: 40px;
+    justify-content:center;
+    align-items:center;
+}
+#Our_Services .service_body .bottom{
+    /* border: 1px solid red; */
+    text-align:center;
+    background-color: #f1f1f1;
+    padding: 14px;
+    padding-top: 50px;
+}
+#Our_Services .service_body .bottom:hover{
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    transition: all linear .3s;
+}
+#Our_Services .service_body .bottom h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    font-weight: 500;
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#Our_Services .service_body .bottom p{
+    font-size: 13px;
+    line-height: 24px;
+    /* text-align: justify; */
+}
+#Our_Services .col-12{
+    text-align:center;
+}
+/* Our Services end */
+
+/* Our Portfolio Start */
+#Portfolio .col-12 h2{
+    font-size: 24px;
+    line-height: 24px;
+}
+#Portfolio .col-12{
+    /* font-weight: 500; */
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -6px;
+    margin-bottom: 35px;
+}
+#Portfolio .col-12::before{
+    position: absolute;
+    content: '';
+    background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+    height: 4px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:4px 0px ;
+    /* display: inline-block; */
+    margin-top: 24px;
+    width: 19%;
+}
+#Portfolio .image_body {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#Portfolio .image_body .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    left: -100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+#Portfolio .image_body:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+#Portfolio .image_body .overlay a {
+    height: 40px;
+    width: 40px;
+    background: var(--brand1);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+#Portfolio .image_body .overlay a i {
+    color: var(--white);
+}
+
+#Portfolio .image_body img {
+    width: 100%;
+    height: 100%;
+}
+#Portfolio
+/* Our Portfolio end */
+/* Team :start */
+#team .col-12 h2{
+    font-size: 24px;
+    line-height: 24px;
+}
+#team .col-12{
+    /* font-weight: 500; */
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -6px;
+    margin-bottom: 22px;
+}
+#team .col-12::before{
+    position: absolute;
+    content: '';
+    background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+    height: 4px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:4px 0px ;
+    /* display: inline-block; */
+    margin-top: 24px;
+    width: 12%;
+}
+#team .col-3 .top img{
+    width: 100%;
+}
+#team .col-3 .bottom{
+    text-align: center;
+}
+/* #team .col-3 .bottom h4{
+font-size: 16px;
+line-height: 24px;
+color: var(--black);
+font-weight: 500;
+font-family: "Oswald-Bold";
+}
+#team .col-3 .bottom h5{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black);
+    font-weight: 400;
+    font-family: "Oswald-Bold";
+} */
+#team .team_body .top {
+    position: relative;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+
+#team .team_body .top .overlay {
+    position: absolute;
+    width: 80px;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    right: -100%;
+    transition: all linear .3s;
+}
+
+#team .team_body:hover .top .overlay {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+#team .team_body:hover .top {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+
+}
+
+#team .team_body:hover .bottom h4 {
+    color: var(--brand1);
+}
+
+#team .team_body .top .overlay ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+}
+
+#team .team_body .top .overlay ul li a {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 12px 0px;
+}
+
+#team .team_body .top .overlay ul li a:hover {
+    background-color: var(--brand1);
+    width: 50px;
+    height: 50px;
+}
+
+#team .team_body .top img {
+    width: 100%
+}
+
+#team .team_body .bottom {
+    text-align: center;
+}
+
+#team .team_body .bottom h4 {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    font-weight: 500;
+    font-family: "Oswald-Bold";
+    transition: all linear .3s;
+}
+
+#team .team_body .bottom h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Oswald-Bold";
+}
+/* Team :end */
+/*  Testimonial :start */
+#testimonial .col-12 h2{
+    font-size: 24px;
+    line-height: 24px;
+}
+#testimonial .col-12{
+    /* font-weight: 500; */
+    font-family: "Oswald-Bold";
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -6px;
+    margin-bottom: 22px;
+}
+#testimonial .col-12::before{
+    position: absolute;
+    content: '';
+    background-image: url(/image/Shape\ 1\ copy\ 3@1X.png);
+    height: 4px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:4px 0px ;
+    /* display: inline-block; */
+    margin-top: 24px;
+    width: 17%;
+}
+/*  Testimonial :end */
+/* footer part start */
+
+/* footer part end */
